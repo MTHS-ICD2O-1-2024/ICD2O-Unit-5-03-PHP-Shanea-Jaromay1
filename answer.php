@@ -34,6 +34,8 @@
           <?php
           // Generate random number
           $randomNumber = random_int(1, 6);
+          // input
+          $ageNumber = $_GET['age-number'];
           // process
           if ($ageNumber >= 17) {
             // output
