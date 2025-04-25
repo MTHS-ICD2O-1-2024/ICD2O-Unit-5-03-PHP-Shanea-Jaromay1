@@ -42,6 +42,12 @@
           else if ($ageNumber >= 13) {
             // output 
             echo "You can see a PG-13 movie alone.";
+          } else if ($ageNumber >= 5) {
+            // output 
+            echo "You can see a G or PG movie alone.";
+          } else {
+            // output 
+            echo "Kiddo, you are too young for most of the movies.";
           }
           ?>
         </div>
